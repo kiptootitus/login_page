@@ -1,0 +1,17 @@
+<head>
+    <title>Login Form</title>
+  </head>
+  <body>
+  
+    <h1>Login Form</h1>
+  
+    <form method="post" action="{% url 'account' %}">
+      {% csrf_token %}
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Login">
+    </form>
+  
+  </body>
