@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website!</h1>
+		<nav>
+			<ul>
+				<li><a href="{% url 'login' %}">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<h2>About Us</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet auctor risus in euismod. Vestibulum ac massa sed dolor faucibus euismod. Fusce imperdiet libero lectus, eget vulputate tortor commodo vel.</p>
+		
+		<h2>Our Services</h2>
+		<ul>
+			<li>Web design</li>
+			<li>Web development</li>
+			<li>SEO optimization</li>
+		</ul>
+	</main>
+	
+	<footer>
+		<!-- Your footer content goes here -->
+	</footer>
+</body>
+</html>
